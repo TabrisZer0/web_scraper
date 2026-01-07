@@ -11,7 +11,6 @@ Lightweight web crawler for extracting page metadata (H1, first paragraph), outg
 
 Requirements
 ------------
-- Note: this project does not include a separate `requirements.txt`; install the packages listed below.
 - Python 3.8+
 - Packages: `beautifulsoup4`, `requests`, `aiohttp` (for async crawling)
 
@@ -67,6 +66,4 @@ Notes & Tips
 pip freeze > requirements.txt
 ```
 
-Questions or changes
---------------------
-If you want, I can add a `requirements.txt`, enable logging, or update the tests to cover the async crawler. Tell me which you'd prefer.
+
